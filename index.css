@@ -65,6 +65,11 @@ title
 /*
 gi section 
 */
+#gi_content {
+    padding: 10px;
+	overflow:hidden;
+	
+}
 
 #general_information {
      background-color: lightblue;
