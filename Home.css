@@ -1,0 +1,347 @@
+body {
+    width: 100%;
+    min-width: 1514px;
+    padding: 0;
+    margin: 0;
+}
+/*
+Nav Bar
+*/
+nav {
+    width: 100%;
+    background-color: #14b096;
+}
+nav div {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;    
+}
+nav ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+nav li {
+   display: inline;
+}
+nav li a {
+    display: inline-block;
+    color: #ffffcc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: #333;
+    background-color: #ffffcc;
+}
+/********** End of nav bar *********/
+
+
+/*
+Common classes :
+sections
+title
+*/
+.section {
+    overflow: hidden;
+    width: 100%;
+}
+.title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.content{
+    width: 70%;
+    margin: 0 auto; 
+}
+/*
+gi section 
+*/
+
+#general_information {
+     background-color: lightblue;
+     padding-bottom: 50px;
+}
+/* ide */
+#ide .ahmed{
+    color : #03b7d0 ;
+}
+
+#ide {
+    background-color: #263843;
+    color: white;
+    font-family: Consolas;
+    padding: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/* ide ends here */
+
+/* run image */
+#run {
+    padding-top: 150px;
+    width: 100px;
+    height: 100px;
+}
+#run img {
+    width: 100px;
+    height: 100px;
+}
+/* common features*/
+.buttons {
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin: 5px;
+    border-radius: 50%;
+}
+.quit{
+    background-color: red;
+    margin-left: 7px;
+}
+.expand {
+    background-color: orange;
+}
+.down {
+    background-color: green;
+}
+.window_bar{
+    text-align: center;
+    background-color: gray;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.gi_introduction {
+    width: 400px;
+    height: 320px;
+    margin-top: 10px;
+    padding: 20px;
+    float: left;
+}
+
+/* console */
+#console {
+    background-color: black;
+     font-family: Consolas;
+    color: white;
+    padding: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#console_error {
+    color: red;
+}
+#console_error a {
+    color: red;
+}
+
+#resume a{
+    color: green;
+}
+
+#resume a {
+    text-decoration: none;
+}
+/* console ends here */
+
+
+/* eduction starts here */
+#education {
+    background-color: #16be64;
+    padding-bottom: 50px;
+}
+#e_content {
+    padding: 10px;
+    width: 670px;
+}
+.e_university{
+ border : 2px black solid ;
+ border-radius: 15px;
+ background-color: white;
+ width: 650px;
+ padding: 10px;
+ overflow: hidden;
+ margin-bottom: 5px;
+}
+.e_university_logo{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+.e_university_description{
+    width: 500px;
+    padding: 10px;
+
+}
+.e_aub_components {
+    float: left;
+}
+.e_upenn_components {
+    float: left;
+}
+/*common*/
+.e_university_name{
+    margin : 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+}
+/* education ends here */
+
+
+/* experience starts here */
+#experience {
+    background-color: #496da3;
+    padding-bottom: 50px;
+}
+#experience a{
+    color: #496da3;
+}
+#ex_content {
+    padding: 10px;
+    width: 900px;
+}
+.ex_internship {
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    padding : 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    float: left;
+    margin-right: 20px;
+}
+.ex_internship_position{
+    padding: 5px;
+    width: 230px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.ex_internship_company{
+    font-size: 15px;
+
+}
+.ex_internship_logo {
+    width: 250px;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+.ex_intenrship_description {
+    margin-top: 10px;
+}
+/* expereince ends here */ 
+
+/* Skills section starts here */
+
+#skills {
+    background-color: #d3d3d3;
+    height: 520px;
+}
+
+#s_content li {
+    list-style-type: none;
+    float: left;
+    padding: 20px;
+
+}
+.squares_1 {
+    width: 120px;
+    height: 120px;
+}
+#s_content img {
+    width: 150px;
+    height: 150px;
+}
+/* skills section ends here*/
+
+/* project starts here */
+#projects {
+    background-color: #ffffcc;
+}
+#p_content {
+    overflow: hidden;
+    width: 1250px;
+    height: 700px;
+    padding-top: 50px;
+}
+.p_components {
+    float: left;
+}
+#p_ti_info {
+    width: 320px;
+    padding: 10px;
+    padding-left: 60px;
+    margin-left: 40px;
+    border-left: 1px solid black;
+}
+#p_ti_title{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#p_ti_logo{
+    width: 100px;
+    height: 100px;
+}
+#p_ti_logo_container {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ #p_ti_description a{
+    text-decoration: none;
+    color: #0e5243;
+ }
+/* project ends here */ 
+
+
+
+
+/* footer */ 
+
+ footer {
+    background-color: #101007;
+    color: #ffffcc;
+    overflow: hidden;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+ }
+ footer img {
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+    
+ footer div{
+    margin: 0 auto;
+ }
+
+ #contact_img{
+    width: 300px;
+    margin-top: 10px;
+    text-align: center;
+    border-top: solid 1px #ffffcc;
+ }
+
+   
+
+/* footer ends here */
