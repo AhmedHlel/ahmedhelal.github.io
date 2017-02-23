@@ -2,25 +2,32 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Ahmed Helal</title>
 	<link rel="icon" href="photos/icon.png" type="image/png" sizes="32x32">
 	<link rel="stylesheet" type="text/css" href="index.css">
+		<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
 </head>
 <body>
 	<nav>
-		<div><h1>Ahmed Helal</h1></div>
-		<ul>
-			<li  class="menu"><a href="#general_information">General Informtion</a></li>
-			<li class="menu"><a href="#education">Education</a></li>
-			<li class="menu"><a href="#experience">Experience</a></li>
-			<li class="menu"><a href="#skills">Skills</a></li>
-			<li class="menu"><a href="#projects">Projects</a></li>
+		<div class="col-lg-12"><h1>Ahmed Helal</h1></div>
+		<ul class="container-fluid">
+			<li  class="menu"><a href="#general_information" >General Informtion</a></li>
+			<li class="menu"><a href="#education" >Education</a></li>
+			<li class="menu"><a href="#experience" >Experience</a></li>
+			<li class="menu"><a href="#skills" >Skills</a></li>
+			<li class="menu"><a href="#projects" >Projects</a></li>
 		</ul>
 	</nav>
-	<div id="general_information" class="section">
+	<div id="general_information" class="section container-fluid">
 		<div class="title"><h2>General Information</h2></div>
-		<div id="gi_content" class="content">
-			<div id="gi_ide" class="gi_introduction">
+		<div id="gi_content" class="container-fluid">
+			<div id="gi_ide" class="gi_introduction  col-lg-5 col-md-5 col-sm-5 col-xs-12">
 				<div class="window_bar">
 			 		<div>
 						<div class="quit buttons"></div>
@@ -41,10 +48,10 @@
 				</div>
 			</div>
 
-			<div id="run" class="gi_introduction">
+			<div id="run" class="gi_introduction  col-lg-2 col-md-2 col-sm-2 col-xs-12  "  >
 				<img src="photos/run.png" alt="run image">
 			</div>
-			<div id="gi_console" class="gi_introduction">
+			<div id="gi_console" class="gi_introduction col-lg-5 col-md-5 col-sm-5 col-xs-12">
 				<div class="window_bar">
 			 		<div >
 			 			<div class="quit buttons"></div>
@@ -67,15 +74,15 @@
 		</div>
 	</div>
 
-	<div id="education" class="section">
+	<div id="education" class="section container-fluid">
 		<div class="title"><h2>Education</h2></div>
-		<div id="e_content" class="content">
-			<div class="e_university">
+		<div id="e_content" class="content container">
+			<div class="e_university  ">
 				<div class="e_university_name">American University of Beirut (2015-Present)</div>
-				<div class="e_university_logo e_aub_components">
+				<div class="e_university_logo e_aub_components col-md-2">
 					<img src="photos/aub_logo.png" alt="aub_logo" >
 				</div>
-				<div class="e_university_description e_aub_components">
+				<div class="e_university_description e_aub_components col-lg-10 col-md-10 col-sm-12 col-xs-12">
 					The American University of Beirut, one of the most prestigious universities not only in th region but in the world. It was founded in 1866 By Daniel Bliss in Beirut, Lebanon. The computer science department at AUB works on fostering the potential of its students in order to be successful in the field.Thus "Upon graduation, students are equipped with the
 					knowledge to work in many domains of computer science" (CMPS department - AUB)
 				</div>
@@ -84,93 +91,91 @@
 
 			<div class="e_university">
 				<div class="e_university_name">University of Pennsylvania (Semester Abroad)</div>
-				<div class="e_university_logo e_upenn_components">
+				<div class="e_university_logo e_upenn_components  col-md-2 ">
 					<img src="photos/upenn_logo.png" alt="upenn_logo" >
 				</div>
-				<div class="e_university_description e_upenn_components">
+				<div class="e_university_description e_upenn_components col-lg-10 col-md-10 col-sm-12 col-xs-12">
 					University of Pennsylvania, alsp know Upenn, is an Ivy League school locted in Philadelphia. Spending a semester abroad at one of the most prestigious offersa multi-dimensional experience including the prefessional, eductional and most importantly social aspects that each one has to be obtained.
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div id="experience" class="section">
+	<div id="experience" class="section container-fluid">
 		<div class="title"><h2>Experience</h2></div>
 
-		<div id="ex_content" class="content">
+		<div id="ex_content" class="content container-fluid col-lg-offset-2 ">
 		<!--180 dc -->
-			<div class="ex_internship">
+			<div class="ex_internship col-lg-3 col-md-12 col-sm-12 col-xs-12">
 				<div class="ex_internship_position">Consultant<div class="ex_internship_company"><a href="http://180dc.org/" target="_blank">180 Degrees Consulting</a></div> </div>
 
 				<div class="ex_internship_logo ">
 					<img src="photos/180dc_logo.png" alt="180dc_logo">
 				</div>
 				<div class="ex_intenrship_description">
-					180 DC offers " very high-quality consulting services without the usual price tag because our consultants are carefully selected top university students with the ruight combination of expertise, creativity, and problem solving ability".<br> Being part of 180 DC I was able to get involved in the society by addressing its problems and work on solving them based on extensive research and effective communication.
+					180 DC offers " very high-quality consulting services without the usual price tag because our consultants are carefully selected top university students with the ruight combination of expertise, creativity, and problem solving ability".Being part of 180 DC I got involved in the society by not only addressing its problems but also working on solving them based on extensive research and effective communication.
 				</div>
 			</div>
 
 		<!--Amideast AA-->
-			<div class="ex_internship">
+			<div class="ex_internship col-lg-3 col-md-12 col-sm-12 col-xs-12">
 				<div class="ex_internship_position">Adminitrative Assistant<div class="ex_internship_company"><a href="http://www.amideast.org/" target="_blank">AMIDEAST</a></div> </div>
 
 				<div class="ex_internship_logo ">
 					<img src="photos/amideast_logo.png" alt="amideast_logo" >
 				</div>
 				<div class="ex_intenrship_description">
-					AMIDEAST is an American NGO that works on bridging thr gap between the USA and Middle East and North Africa via the different programs it offers with coordnation of several partners such as the US State Departments. Being an administration assistant, I was able to develop multiple essential skills when it comes to dealing with customers which every Computer Scientist willing to work within a company needs. My continous work with them allowed be an asset to AMIDEAST.
+					AMIDEAST is an American NGO working on bridging the gap between the USA and the MENA region via the different programs it offers with coordination of several partners such as the US State Departments. Being an administrative assistant, I developped multiple  skills when it comes to dealing with customers which every Computer Scientist needs. Thus becoming an assent to AMIDEAST.
 				</div>
 			</div>
-
 			<!--Amideast TA-->
-			<div class="ex_internship">
+			<div class="ex_internship col-lg-3 col-md-12 col-sm-12 col-xs-12">
 				<div class="ex_internship_position">Teacher Assistant<div class="ex_internship_company"><a href="http://www.amideast.org/" target="_blank">AMIDEAST</a></div> </div>
 
 				<div class="ex_internship_logo ">
 					<img src="photos/amideast_logo.png" alt="amideast_logo" >
 				</div>
 				<div class="ex_intenrship_description">
-					AMIDEAST is an American NGO that works on bridging thr gap between the USA and Middle East and North Africa via the different programs it offers with coordnation of several partners such as the US State Departments. I also was a Teacher Asistant at AMIDEAST. I mainly was responsible of several tasks such as preparing the course materials to implementing activities in the classroom for a better assimilation.
+					AMIDEAST is an American NGO working on bridging thr gap between the USA and the MENA region via the different programs it offers with coordnation of several partners such as the US State Departments. Being a Teacher Asistant at AMIDEAST, I was responsible of several tasks as preparing the course materials to implementing activities in the classroom for a better assimilation.
 				</div>
 			</div>
-
-
+			
 
 		</div>
 	</div>
 
-	<div id="skills" class="section">
+	<div id="skills" class="section container-fluid">
 		<div class="title"><h2>Skills</h2></div>
-		<div id="s_content" class="content">
+		<div id="s_content" class="content col-lg-12 col-md-12 col-sm-12   col-xs-12">
 			<ul>
-				<li><img src="photos/skills/java_logo.png" alt="java_logo"></li>
-				<li><img src="photos/skills/android_studio_logo.png" alt="android_studio_logo"></li>
-				<li><img src="photos/skills/c_logo.png" alt="c_logo"></li>
-				<li><img src="photos/skills/cpp_logo.png" alt="cpp_logo" ></li>
-				<li><img src="photos/skills/html_logo.png" alt="html_logo" ></li>
-				<li><img src="photos/skills/css_logo.png" alt="css_logo"></li>
-				<li><img src="photos/skills/js_logo.png" class="squares_1" alt="js_logo"></li>
-				<li><img src="photos/skills/php_logo.png" alt="php_logo"></li>
-				<li><img src="photos/skills/jquery_logo.png" alt="php_logo"></li>
-				<li><img src="photos/skills/mysql_logo.png" alt="mysql_logo"></li>
+				<li class="col-lg-2  col-md-2 col-sm-3 col-xs-6"><img src="photos/skills/java_logo.png" alt="java_logo"></li>
+				<li class="col-lg-2 col-md-2 col-sm-3 col-xs-6"><img src="photos/skills/android_studio_logo.png" alt="android_studio_logo"></li>
+				<li class="col-lg-2 col-md-2 col-sm-3 col-xs-6"><img src="photos/skills/c_logo.png" alt="c_logo"></li>
+				<li class="col-lg-2 col-md-2 col-sm-3 col-xs-6"><img src="photos/skills/cpp_logo.png" alt="cpp_logo" ></li>
+				<li class="col-lg-2 col-md-2 col-sm-3 col-xs-6"><img src="photos/skills/html_logo.png" alt="html_logo" ></li>
+				<li class="col-lg-2 col-md-2 col-sm-3 col-xs-6"><img src="photos/skills/css_logo.png" alt="css_logo"></li>
+				<li class="col-lg-2 col-md-2 col-sm-3 col-xs-6"><img src="photos/skills/js_logo.png" class="squares_1" alt="js_logo"></li>
+				<li class="col-lg-2 col-md-2 col-sm-3 col-xs-6"><img src="photos/skills/php_logo.png" alt="php_logo"></li>
+				<li class="col-lg-2 col-md-2 col-sm-3 col-xs-6"><img src="photos/skills/jquery_logo.png" alt="php_logo"></li>
+				<li class="col-lg-2 col-md-2 col-sm-3 col-xs-6"><img src="photos/skills/mysql_logo.png" alt="mysql_logo"></li>
 			</ul>
 		</div>
 	</div>
 
-	<div id="projects" class="section">
+	<div id="projects" class="section container-fluid">
 		<div class="title"><h2>Projects</h2></div>
 		<div id="p_content" class="content">
 			<div id="p_traffic_incidents">
 				<div id="p_traffic_incidents_logo_description">
-					<div class="p_components">
-						<img src="photos/screenshot.png" alt="screenshot" >
+					<div class="p_components col-lg-7 col-md-12 col-sm-12 col-xs-12 " id="p_ti_screenshot">
+						<img src="photos/screenshot.png" alt="screenshot" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 " >
 					</div>
-					<div id="p_ti_info" class="p_components">
+					<div id="p_ti_info" class="p_components col-lg-4">
 						<div id="p_ti_title">Traffic Incidents</div>
 						<div id="p_ti_logo_container"><img src="photos/p_ti_logo.png" id="p_ti_logo" alt="p_ti_logo"></div>
-						<div id="p_ti_description">
+						<div id="p_ti_description" >
 							&nbsp;&nbsp;&nbsp;&nbsp; I have worked on this project with Iskander Gaba as a group project for the web development and design course at the American University of Beirut. Traffic Incidents is a service that allows the user to fetch any incident nearby in an easy, simple and user-friendly manner.<br><br>
-							&nbsp;&nbsp;&nbsp;&nbsp; To use the website, you are invited to create an account in order to start interacting with website that gives regularly updated and reliable informaton.<br><br> &&nbsp;&nbsp;&nbsp;&nbsp; This project involves the effective usage of the multiple programming languages and platforms such as JavaScript, PHP and JQuery that interact with a database. The project additionally required extra knowledge which is beyond the scope of the course. This shows our interest in developping a fully functional website regardless of the limitations.<br><br> <a href="https://traffic-incidents.000webhostapp.com/main.php"  target="_blank">Traffic Incident website</a>
+							&nbsp;&nbsp;&nbsp;&nbsp; To use the website, you are invited to create an account in order to start interacting with website that gives regularly updated and reliable informaton.<br><br> &nbsp;&nbsp;&nbsp;&nbsp; This project involves the effective usage of the multiple programming languages and platforms such as JavaScript, PHP and JQuery that interact with a database. The project additionally required extra knowledge which is beyond the scope of the course. This shows our interest in developping a fully functional website regardless of the limitations.<br><br> <a href="https://traffic-incidents.000webhostapp.com/main.php"  target="_blank">Traffic Incident website</a>
 						</div>
 					</div>
 				</div>
@@ -189,5 +194,7 @@
 			</div>
 		</div>
 	</footer>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	</body>
 </html>

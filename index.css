@@ -1,6 +1,4 @@
 body {
-    width: 100%;
-    min-width: 1514px;
     padding: 0;
     margin: 0;
 }
@@ -8,7 +6,6 @@ body {
 Nav Bar
 */
 nav {
-    width: 100%;
     background-color: #14b096;
 }
 nav div {
@@ -51,7 +48,7 @@ title
 */
 .section {
     overflow: hidden;
-    width: 100%;
+
 }
 .title {
     text-align: center;
@@ -59,16 +56,15 @@ title
     font-weight: bold;
 }
 .content{
-    width: 70%;
-    margin: 0 auto; 
+    margin: auto 0 ; 
 }
 /*
-gi section 
+gi section
 */
 #gi_content {
     padding: 10px;
 	overflow:hidden;
-	
+    width: 0 auto;
 }
 
 #general_information {
@@ -81,7 +77,7 @@ gi section
 }
 
 #ide {
-    background-color: #263843;
+    background-color: black;
     color: white;
     font-family: Consolas;
     padding: 5px;
@@ -92,12 +88,9 @@ gi section
 
 /* run image */
 #run {
-    padding-top: 150px;
-    width: 100px;
-    height: 100px;
+    text-align: center;
 }
 #run img {
-    width: 100px;
     height: 100px;
 }
 /* common features*/
@@ -125,8 +118,7 @@ gi section
     border-top-left-radius: 25px;
 }
 .gi_introduction {
-    width: 400px;
-    height: 320px;
+
     margin-top: 10px;
     padding: 20px;
     float: left;
@@ -165,32 +157,22 @@ gi section
 }
 #e_content {
     padding: 10px;
-    width: 670px;
 }
 .e_university{
  border : 2px black solid ;
  border-radius: 15px;
  background-color: white;
- width: 650px;
  padding: 10px;
  overflow: hidden;
  margin-bottom: 5px;
 }
 .e_university_logo{
-    width: 100px;
     height: 100px;
-    margin-right: 10px;
+    text-align: center;
 }
 .e_university_description{
-    width: 500px;
     padding: 10px;
-
-}
-.e_aub_components {
-    float: left;
-}
-.e_upenn_components {
-    float: left;
+    padding-left: 0px;
 }
 /*common*/
 .e_university_name{
@@ -214,21 +196,18 @@ gi section
 }
 #ex_content {
     padding: 10px;
-    width: 900px;
+    overflow: hidden;
 }
 .ex_internship {
     background-color: white;
-    width: 250px;
-    height: 500px;
-    padding : 10px;
     border: 2px solid black;
     border-radius: 15px;
-    float: left;
-    margin-right: 20px;
+    margin-top: 10px;
+    margin-left: 5px;;
+    padding: 5px;
 }
 .ex_internship_position{
     padding: 5px;
-    width: 230px;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -240,7 +219,6 @@ gi section
 
 }
 .ex_internship_logo {
-    width: 250px;
     text-align: center;
     padding-bottom: 15px;
     border-bottom: 1px solid black;
@@ -254,21 +232,18 @@ gi section
 
 #skills {
     background-color: #d3d3d3;
-    height: 520px;
 }
+
+
 
 #s_content li {
     list-style-type: none;
-    float: left;
     padding: 20px;
-
 }
 .squares_1 {
-    width: 120px;
     height: 120px;
 }
 #s_content img {
-    width: 150px;
     height: 150px;
 }
 /* skills section ends here*/
@@ -279,19 +254,16 @@ gi section
 }
 #p_content {
     overflow: hidden;
-    width: 1250px;
-    height: 700px;
-    padding-top: 50px;
 }
-.p_components {
-    float: left;
-}
+
 #p_ti_info {
-    width: 320px;
-    padding: 10px;
-    padding-left: 60px;
-    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-left: 10px;
     border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+#p_ti_screenshot{
+    padding-bottom: 30px;
 }
 #p_ti_title{
     text-align: center;
@@ -300,7 +272,6 @@ gi section
     font-weight: bold;
 }
 #p_ti_logo{
-    width: 100px;
     height: 100px;
 }
 #p_ti_logo_container {
@@ -313,6 +284,7 @@ gi section
     text-decoration: none;
     color: #0e5243;
  }
+
 /* project ends here */ 
 
 
@@ -330,7 +302,6 @@ gi section
     padding: 10px;
  }
  footer img {
-    width: 30px;
     height: 30px;
     padding-left: 10px;
     padding-top: 10px;
