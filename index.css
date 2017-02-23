@@ -234,7 +234,9 @@ gi section
     background-color: #d3d3d3;
 }
 
-
+#s_content ul {
+    text-align: center;
+}
 
 #s_content li {
     list-style-type: none;
