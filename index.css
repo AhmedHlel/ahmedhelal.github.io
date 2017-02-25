@@ -1,12 +1,16 @@
 body {
     padding: 0;
     margin: 0;
+    font: 20px Montserrat, sans-serif;
 }
 /*
 Nav Bar
 */
 nav {
-    background-color: #14b096;
+    background-color: #57B79A;
+}
+#name {
+    font-size: 60px;
 }
 nav div {
     text-align: center;
@@ -48,15 +52,21 @@ title
 */
 .section {
     overflow: hidden;
+    border-bottom: 2px dotted #333;
 
 }
 .title {
     text-align: center;
+    color: #57B79A;
     font-size: 25px;
     font-weight: bold;
 }
 .content{
     margin: auto 0 ; 
+}
+
+nav img {
+    height: 700px;
 }
 /*
 gi section
@@ -68,7 +78,6 @@ gi section
 }
 
 #general_information {
-     background-color: lightblue;
      padding-bottom: 50px;
 }
 /* ide */
@@ -152,16 +161,14 @@ gi section
 
 /* eduction starts here */
 #education {
-    background-color: #16be64;
     padding-bottom: 50px;
 }
 #e_content {
     padding: 10px;
 }
 .e_university{
- border : 2px black solid ;
+ border : 2px #57B79A solid ;
  border-radius: 15px;
- background-color: white;
  padding: 10px;
  overflow: hidden;
  margin-bottom: 5px;
@@ -188,8 +195,11 @@ gi section
 
 /* experience starts here */
 #experience {
-    background-color: #496da3;
     padding-bottom: 50px;
+    background-color: #57B79A;
+}
+#experience .title{
+    color: white;
 }
 #experience a{
     color: #496da3;
@@ -230,9 +240,6 @@ gi section
 
 /* Skills section starts here */
 
-#skills {
-    background-color: #d3d3d3;
-}
 
 #s_content ul {
     text-align: center;
@@ -252,7 +259,6 @@ gi section
 
 /* project starts here */
 #projects {
-    background-color: #ffffcc;
 }
 #p_content {
     overflow: hidden;
