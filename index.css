@@ -1,6 +1,5 @@
 body {
     padding: 0;
-    padding-top: 96px;
     margin: 0;
     font: 20px Montserrat, sans-serif;
 }
@@ -12,9 +11,6 @@ Nav Bar
     background-color: #57B79A;
     text-align: center;
     font-size: 60px;
-}
-nav{
-    z-index: 10;
 }
 nav div {
     text-align: center;
