@@ -261,6 +261,7 @@ gi section
 #projects {
 }
 #p_content {
+    margin-top: 50px;
     overflow: hidden;
 }
 
