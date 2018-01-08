@@ -95,10 +95,6 @@ gi section
  font-size: 20px;
 }
 
-
-
-
-
 /* eduction starts here */
 #education {
     padding-bottom: 50px;
@@ -178,24 +174,6 @@ gi section
 }
 /* expereince ends here */
 
-/* Skills section starts here */
-
-
-#s_content ul {
-    text-align: center;
-}
-
-#s_content li {
-    list-style-type: none;
-    padding: 20px;
-}
-.squares_1 {
-    height: 120px;
-}
-#s_content img {
-    height: 150px;
-}
-/* skills section ends here*/
 
 /* project starts here */
 #projects {
