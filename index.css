@@ -17,7 +17,7 @@ nav div {
     vertical-align: middle;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 30px;    
+    font-size: 30px;
 }
 nav ul {
     text-align: center;
@@ -52,17 +52,18 @@ title
 */
 .section {
     overflow: hidden;
-    border-bottom: 2px dotted #333;
+    border-bottom: 2px #333;
 
 }
 .title {
     text-align: center;
     color: #57B79A;
+    padding: 10px;
     font-size: 25px;
     font-weight: bold;
 }
 .content{
-    margin: auto 0 ; 
+    margin: auto 0 ;
 }
 
 nav img {
@@ -71,93 +72,33 @@ nav img {
 /*
 gi section
 */
-#gi_content {
-    padding: 10px;
-	overflow:hidden;
-    width: 0 auto;
+
+
+
+
+#gi_profile{
+  padding: 0;
 }
 
-#general_information {
-     padding-bottom: 50px;
-}
-/* ide */
-#ide .ahmed{
-    color : #03b7d0 ;
+#gi_about {
+
+  padding: 8px;
+  background-color: #57B79A;
 }
 
-#ide {
-    background-color: black;
-    color: white;
-    font-family: Consolas;
-    padding: 5px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-/* ide ends here */
-
-/* run image */
-#run {
-    text-align: center;
-}
-#run img {
-    height: 100px;
-}
-/* common features*/
-.buttons {
-    width: 10px;
-    height: 10px;
-    float: left;
-    margin: 5px;
-    border-radius: 50%;
-}
-.quit{
-    background-color: red;
-    margin-left: 7px;
-}
-.expand {
-    background-color: orange;
-}
-.down {
-    background-color: green;
-}
-.window_bar{
-    text-align: center;
-    background-color: gray;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
+#gi_about div{
+  padding: 20px;
+  vertical-align: middle;
+  font-size: 16px;
 }
 
-.gi_introduction {
-
-    margin-top: 10px;
-    padding: 20px;
-    float: left;
+#gi_about div:first-child  {
+  text-align:  center;
+  padding-bottom: 5px;
 }
 
-/* console */
-#console {
-    background-color: black;
-     font-family: Consolas;
-    color: white;
-    padding: 5px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-#console_error {
-    color: red;
-}
-#console_error a {
-    color: red;
-}
 
-#resume a{
-    color: green;
-}
 
-#resume a {
-    text-decoration: none;
-}
-/* console ends here */
 
 
 /* eduction starts here */
@@ -237,7 +178,7 @@ gi section
 .ex_intenrship_description {
     margin-top: 10px;
 }
-/* expereince ends here */ 
+/* expereince ends here */
 
 /* Skills section starts here */
 
@@ -295,12 +236,12 @@ gi section
     color: #0e5243;
  }
 
-/* project ends here */ 
+/* project ends here */
 
 
 
 
-/* footer */ 
+/* footer */
 
  footer {
     background-color: #101007;
@@ -316,7 +257,7 @@ gi section
     padding-left: 10px;
     padding-top: 10px;
 }
-    
+
  footer div{
     margin: 0 auto;
  }
